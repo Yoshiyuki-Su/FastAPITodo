@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <title>ToDoアプリ</title>
+</head>
+<body>
+  <div style="display: flex; flex-direction: column; min-height: 80vh">
+    <div class="container">
+      {% block content %}
+      <!-- メインコンテンツ -->
+      {% endblock %}
+    </div>
+  </div>
+  <br>
+  <hr>
+  <footer>
+    <div align="center">
+      <p>Copyright &copy; 2020 TestCopyright All right reserves.</p>
+      <p>Powered by FastAPI 0.36.0 &amp; starlette 0.12.9</p>
+    </div>
+  </footer>
+</body>
+</html>
